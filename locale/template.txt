@@ -1,0 +1,66 @@
+# textdomain: flowers_nt_minetestgame
+Red Mushroom Seedling=
+Red Mushroom Budding=
+Red Mushroom=
+Red Mushroom Seed Head=
+Red Mushroom Spore=
+
+Brown Mushroom Seedling=
+Brown Mushroom Budding=
+Brown Mushroom=
+Brown Mushroom Seed Head=
+Brown Mushroom Spore=
+
+Green Chrysanthemum Seedling=
+Green Chrysanthemum Budding=
+Green Chrysanthemum=
+Green Chrysanthemum Seed Head=
+Green Chrysanthemum Seed=
+
+Yellow Dandelion Seedling=
+Yellow Dandelion Budding=
+Yellow Dandelion=
+Yellow Dandelion Seed Head=
+Yellow Dandelion Seed=
+
+White Dandelion Seedling=
+White Dandelion Budding=
+White Dandelion=
+White Dandelion Seed Head=
+White Dandelion Seed=
+
+Blue Geranium Seedling=
+Blue Geranium Budding=
+Blue Geranium=
+Blue Geranium Seed Head=
+Blue Geranium Seed=
+
+Red Rose Seedling=
+Red Rose Budding=
+Red Rose=
+Red Rose Seed Head=
+Red Rose Seed=
+
+Black Tulip Seedling=
+Black Tulip Budding=
+Black Tulip=
+Black Tulip Seed Head=
+Black Tulip Seed=
+
+Orange Tulip Seedling=
+Orange Tulip Budding=
+Orange Tulip=
+Orange Tulip Seed Head=
+Orange Tulip Seed=
+
+Viola Seedling=
+Viola Budding=
+Viola=
+Viola Seed Head=
+Viola Seed=
+
+Water Lily Seedling=
+Water Lily Budding=
+Water Lily=
+Water Lily Seed Head=
+Water Lily Seed=

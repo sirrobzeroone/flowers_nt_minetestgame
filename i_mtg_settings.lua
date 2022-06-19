@@ -188,7 +188,7 @@ flowers_nt.register_flower({
 })
 
 flowers_nt.register_flower({
-							flower_name = "Violet Viola",
+							flower_name = "Viola",
 							grow_on     = {"default:dirt",
 							               "default:dirt_with_grass"
 									      },
@@ -243,10 +243,16 @@ if not flowers_nt.rollback then
 end
 
 
--- Manually delete flowers:waterlily decoration as name
+------- api handled 
+-- Manually update flowers:waterlily decoration as name
 -- is registered as "default:waterlily" but places - "flowers:waterlily_waving"
 -- other decoration names are named as == to reg node name
-flowers_nt.delete_decoration({"default:waterlily"})
+	
+--local lily_dec_cpy = table.copy(minetest.registered_decorations["default:waterlily"])
+--lily_dec_cpy.name = "flowers:waterlily_waving"
+--flowers_nt.delete_decoration({"default:waterlily"})
+--minetest.register_decoration(lily_dec_cpy)
+--------
 
 -- Normal registration process
 flowers_nt.register_flower({
