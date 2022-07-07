@@ -76,6 +76,7 @@ flowers_nt.register_flower({
 							sounds      = default.node_sound_leaves_defaults(),
 							color       = "green",
 							sel_box     = {-0.35,-0.5,-0.35, 0.35, 0.25, 0.35},
+							e_groups    = {flammable = 1},
 							existing    = "flowers:chrysanthemum_green"
 })
 
@@ -94,6 +95,7 @@ flowers_nt.register_flower({
 							sounds      = default.node_sound_leaves_defaults(),
 							color       = "yellow",
 							sel_box     = {-0.35,-0.5,-0.35, 0.35, 0.35, 0.35},
+							e_groups    = {flammable = 1},
 							existing    = "flowers:dandelion_yellow"
 })
 
@@ -112,6 +114,7 @@ flowers_nt.register_flower({
 							sounds      = default.node_sound_leaves_defaults(),
 							color       = "white",
 							sel_box     = {-0.25,-0.5,-0.25, 0.25, 0.10, 0.25},
+							e_groups    = {flammable = 1},
 							existing    = "flowers:dandelion_white"
 })
 
@@ -130,6 +133,7 @@ flowers_nt.register_flower({
 							sounds      = default.node_sound_leaves_defaults(),
 							color       = "blue",
 							sel_box     = {-0.25,-0.5,-0.25, 0.25, 0.4, 0.25},
+							e_groups    = {flammable = 1},
 							existing    = "flowers:geranium"
 })
 
@@ -148,6 +152,7 @@ flowers_nt.register_flower({
 							sounds      = default.node_sound_leaves_defaults(),
 							color       = "red",
 							sel_box     = {-0.25,-0.5,-0.25, 0.25, 0.5, 0.25},
+							e_groups    = {flammable = 1},
 							existing    = "flowers:rose"
 })
 
@@ -166,6 +171,7 @@ flowers_nt.register_flower({
 							sounds      = default.node_sound_leaves_defaults(),
 							color       = "black",
 							sel_box     = {-0.25,-0.5,-0.25, 0.25, 0.35, 0.25},
+							e_groups    = {flammable = 1},
 							existing    = "flowers:tulip_black"
 })
 
@@ -184,6 +190,7 @@ flowers_nt.register_flower({
 							sounds      = default.node_sound_leaves_defaults(),
 							color       = "orange",
 							sel_box     = {-0.25,-0.5,-0.25, 0.25, 0.35, 0.25},
+							e_groups    = {flammable = 1},
 							existing    = "flowers:tulip"
 })
 
@@ -202,6 +209,7 @@ flowers_nt.register_flower({
 							sounds      = default.node_sound_leaves_defaults(),
 							color       = "violet",
 							sel_box     = {-0.25,-0.5,-0.25, 0.25, 0.10, 0.25},
+							e_groups    = {flammable = 1},
 							existing    = "flowers:viola"
 })
 
@@ -220,7 +228,6 @@ if not flowers_nt.rollback then
 				local main_inv = inv:get_list("main")
 				
 				for i,itemstack in pairs(main_inv) do
-				minetest.debug(itemstack:get_name())
 					if itemstack:get_name() == i_tar then
 						inv:remove_item("main", ItemStack(itemstack:get_name().." "..itemstack:get_count()))
 						
